@@ -1,6 +1,6 @@
+//Entendendo o JSX
+import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-
 
 function App() {
   const name = 'Carlos'
@@ -14,9 +14,9 @@ function App() {
       <p>Olá, {newName}</p>
       <p>Soma {2+2}</p>
       <img src={url} />
-      <HelloWorld />
     </div>
   );
 }
 
 export default App;
+
